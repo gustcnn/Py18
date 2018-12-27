@@ -1,0 +1,14 @@
+#--*--coding:utf-8
+#Author:cnn
+name_list=["张三","李四","王五"]
+temp_list=["张三","李四","王五"]
+name_list.extend(temp_list)
+#len统计列表长度
+list_len=len(name_list)
+print("列表中元素个数:"+str(list_len))
+print("列表中包含%d个元素"%list_len)
+#count统计元素出现的次数
+times=name_list.count("张三")
+print("出现次数:"+str(times))
+name_list.remove("张三")
+print(name_list)
