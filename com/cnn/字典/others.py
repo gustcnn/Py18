@@ -1,0 +1,14 @@
+#--*--coding:utf-8
+#Author:cnn
+dict_name={"name":"cnn","weight":90,"age":18}
+#统计字典中键值对的数量
+number=len(dict_name)
+print("字典中键值对的数量为:%d"%number)
+#字典合并
+temp_dict={"age":16,"height":1.80}
+#如果dict_name中包含temp_dict的内容，则覆盖,否则新增
+dict_name.update(temp_dict)
+print("合并后的字典为:%s"%dict_name)
+#清空字典
+dict_name.clear()
+print(dict_name)
