@@ -1,0 +1,9 @@
+#--*--coding:utf-8
+#Author:cnn
+gl_num_list=[6,9,3]
+#默认升序
+gl_num_list.sort()
+print(gl_num_list)
+#降序
+gl_num_list.sort(reverse=True)
+print(gl_num_list)
