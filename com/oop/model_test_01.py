@@ -4,7 +4,7 @@
 model_01="嘎嘎嘎_01"
 #函数
 def say_hello():
-    print("hello")
+    print("hello 01")
 
 class Hello(object):
     name="gust"

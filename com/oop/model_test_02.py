@@ -6,7 +6,7 @@
 model_02="嘎嘎嘎_02"
 #函数
 def say_hello():
-    print("hello")
+    print("hello 02")
 
 class Hello(object):
     pass
